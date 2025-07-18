@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(159, 189, 153);
+}
+a{
+    text-decoration: none;
+    font-size:xx-large ;
+    color: black;
+    font-weight: bold;
+    font-style:italic;
+    
+}
+#Visa{
+    color: rgb(255, 0, 98);
+}
+#Nike{
+    color: rgb(5, 85, 9);
+}
+#Mercedes{
+    color: rgb(224, 224, 224);
+}
+#McDonalds{
+    color: rgb(187, 255, 0);
+}
+#FedEx{
+    color: rgb(248, 112, 0);
+}
+#Facebook{
+    color: rgb(47, 0, 255);
+}
+#Coca-cola{
+    color: rgb(253, 0, 0);
+}
+#Apple{
+    color: rgb(182, 0, 238);
+}
+#BMW{
+    color: rgb(0, 0, 0);
+}
+#Adidas{
+    color: rgb(65, 10, 10);
+}

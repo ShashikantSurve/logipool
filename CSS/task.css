@@ -1,0 +1,16 @@
+.div1{
+    background-color: aquamarine;
+    margin-bottom: 5px;
+    margin-left:20px;
+    margin-top: 5px;
+    
+    padding-bottom: 20px;
+
+}
+#head{
+    background-color: blue;
+}
+*{
+    padding: 0px;
+    margin: 0;
+}

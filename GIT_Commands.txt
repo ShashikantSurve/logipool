@@ -1,0 +1,27 @@
+git clone URL
+git status 
+
+00
+0
+git status -s for short msg
+git add filename [to add single file in staged area]
+git add .
+git commit -m 'msg'
+git push origin main
+touch filename.txt [to cretae new single text file]
+touch filename{1..4}.txt [to create a multiple files]
+git checkout file name [for undo means to get previous commit (date)]
+git log {to check all commits]
+git log -p -1 [to check only last 2 commit]
+git rm --cached filename[to  move stage to unstage area]
+git rm-f filename[to delete the force fully]
+echo 'filename   >> .gitignore[to ignore the file] 
+vi .gitignore [to open editor nd to ignore file {add file into gitignore}]
+remove from editing file [esc :wq]
+git checkout branch name
+git fetch [name of the all repository of the main branch]
+
+Procedure for delete -> stage to unstage by [rm -- cached]
+			add file into  .gitignore [vi .gitignore]
+git checkout
+git pull [to add files of another branch into our local  branch]
