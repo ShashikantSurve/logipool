@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <table border="1px">
+        <tr>
+            <td id="d1">1</td>
+            <td id="d2">2</td>
+            <td id="d3">3</td>
+        </tr>
+        <tr>
+            <td id="d4">4</td>
+            <td id="d5">5</td>
+            <td id="d6">6</td>
+        </tr>
+        <tr>
+            <td id="d7">7</td>
+            <td id="d8">8</td>
+            <td id="d9">9</td>
+        </tr>
+    </table><br>
+    <div>
+        <label for="">Enter the cell</label>
+        <input type="text" name="" id="myChoice">
+
+    </div>
+    <div>
+        <label for="">Choose the color</label>
+        <input type="color" name="" id="myColor">
+
+    </div>
+    <button onclick="changeColor()">Change color</button>
+    <script>
+        function changeColor(){
+            let choice=document.getElementById("myChoice").value;
+            console.log(choice);
+            let color=document.getElementById("myColor").value;
+            console.log(color);
+            let id1='d'+choice;
+            console.log(id1);
+            document.getElementById(id1).style.backgroundColor=color;
+            // switch(choice){
+            //     case "1":
+            //         document.getElementById("d1").style.backgroundColor=color;
+            //         break;
+            //     case "2":
+            //         document.getElementById("d2").style.backgroundColor=color;
+            //         break;
+            //     case "3":
+            //         document.getElementById("d3").style.backgroundColor=color;
+            //         break;
+            //     case "4":
+            //         document.getElementById("d4").style.backgroundColor=color;
+            //         break;
+            //     case "5":
+            //         document.getElementById("d5").style.backgroundColor=color;
+            //         break;
+            //     case "6":
+            //         document.getElementById("d6").style.backgroundColor=color;
+            //         break;
+            //     case "7":
+            //         document.getElementById("d7").style.backgroundColor=color;
+            //         break;
+            //     case "8":
+            //         document.getElementById("d8").style.backgroundColor=color;
+            //         break;
+            //     case "9":
+            //         document.getElementById("d9").style.backgroundColor=color;
+            //         break;
+                    // default:
+                    //     console.log("Wrong Choice");
+            // }
+        }
+    </script>
+</body>
+</html>
