@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="practice.js"></script>
+</head>
+<body>
+    <button onclick="power()">Power</button>
+    <h1 id="res1"></h1>
+    <script>
+        function power(){
+            let a=parseInt(prompt("Enter first number : "));//2x2x2x2
+            let b=parseInt(prompt("Enter Second number : "));//4
+            // let c=b;
+            let pow=1;
+            while(b!=0){// 0!=0
+                pow=pow*a;//2 4 8 16    8*2
+                b--;//3 2 1 0
+            }
+            console.log(pow);
+            document.getElementById('res1').innerHTML=a+"^"+c+" = "+pow;
+            // document.write(a+"^"+c+" = "+pow);
+        }
+
+    </script>
+</body>
+</html>
